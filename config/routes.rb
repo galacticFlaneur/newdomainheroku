@@ -6,6 +6,10 @@ Rails.application.routes.draw do
    root 'welcome#index'
 
    get '/welcome/about' => 'welcome#about', as: 'about'
+   get '/welcome/contests' => 'welcome#contests', as: 'contests'
+   get '/welcome/faq' => 'welcome#faq', as: 'faq'
+   get '/welcome/privacy' => 'welcome#privacy', as: 'privacy'
+   get '/welcome/terms' => 'welcome#terms', as: 'terms'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
