@@ -73,7 +73,7 @@
     <div class="row app-align-center">
     <div class="col-sm-12 ">
     <%= image_tag ('zerosum_lobby1.jpg'), :style => "border-radius: 10px" %>
-       <!-- <img src="../../assets/images/zerosum_lobby1.jpg" style="border-radius: 10px;"> -->
+       
       <p></p> <p></p>
            <div class="col-md-8 ">
         <h5 class="text-muted text-uppercase">Live Competitions</h5>
@@ -94,7 +94,8 @@
     <div class="row app-align-center">
 
       <div class="col-md-8 hidden-xs">
-        <img class="app-iphone" src="../../assets/image/display-sm2.jpg" style="width: 100%; border-radius: 10px;">
+      <%= image_tag ('display-sm2.jpg'), :style => "width: 100%; border-radius: 10px", :class => "app-iphone" %>
+      
       </div>
 
       <div class="col-sm-6 col-sm-offset-1">
@@ -121,7 +122,9 @@
   <div class="container">
     <div class="row app-align-center">
       <div class="col-md-12 col-md-push-6">
-      <img class="app-iphone" src="../../assets/image/zerosum_competition1.jpg" style="width: 100%; border-radius: 10px;">
+
+       <%= image_tag ('zerosum_competition1.jpg'), :style => "width: 100%; border-radius: 10px", :class => "app-iphone" %>
+
         
       </div>
 
@@ -154,30 +157,32 @@
 
     <div class="row app-marketing-grid">
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/card.svg">
+       <%= image_tag ('card.svg'), :class => "m-b" %>
+        
         <p><strong>Easy Deposits</strong> We accept a wide range of deposit methods. Safe and secure with Third Party providers like Stripe and PayPal.</p>
       </div>
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/people.svg">
+      <%= image_tag ('people.svg'), :class => "m-b" %>
+        
         <p><strong>Competitions</strong> Do you think you can be the best? We have ongoing competitions to fit your edge.</p>
       </div>
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/laptop.svg">
+       <%= image_tag ('laptop.svg'), :class => "m-b" %>
         <p><strong>Desktop Design</strong> Our Terminal was designed for desktops so you can have your favorite research tools at your finger tips. Mobile coming soon.</p>
       </div>
     </div>
 
     <div class="row app-marketing-grid">
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/idea.svg">
+       <%= image_tag ('idea.svg'), :class => "m-b" %>
         <p><strong>Trade Without Fear</strong> Have an idea? Trade it. No commisions means you never have to eat into your returns!</p>
       </div>
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/bullseye.svg">
+      <%= image_tag ('bullseye.svg'), :class => "m-b" %>
         <p><strong>Performance Matters</strong> We are trying to identify the top performers. Rank in the top and you could recieve more than just cash prizes.</p>
       </div>
       <div class="col-sm-4 p-x-md m-b-lg">
-        <img class="m-b" src="../../assets/images/wallet.svg">
+        <%= image_tag ('wallet.svg'), :class => "m-b" %>
         <p><strong>Real Money Contests</strong> Withdraw your winnings and make some real dough.</p>
       </div>
     </div>
@@ -194,8 +199,8 @@
     
   </div>
   <div class="block-background">
-    
-    <video width="100%" height="auto" autoplay="" loop="" muted="">  <source src="assets/img/traderSoloFull.mp4" type="video/mp4"> </video>
+    <%= video_tag ('traderSoloFull.mp4') %>
+    <!-- <video width="100%" height="auto" autoplay="" loop="" muted="">  <source src="assets/img/traderSoloFull.mp4" type="video/mp4"> </video> -->
   </div>
 </div>
 
@@ -304,7 +309,7 @@
         <a href="https://www.facebook.com/ZeroSumMarkets/" ><i class="fa fa-facebook-official fa-3x m-r-md"></i></a>
         <div class="row p-t-md">
         <div class="col-md-6"
-     <a href="https://stripe.com"> <img src="../../assets/images/powered-by-stripe.png" > </a>
+     <a href="https://stripe.com"> <%= image_tag('powered-by-stripe.png') %> </a>
      </div>
      </div>
       
