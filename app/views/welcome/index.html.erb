@@ -199,7 +199,8 @@
     
   </div>
   <div class="block-background">
-    <%= video_tag ('traderSoloFull.mp4') %>
+  
+    <%= video_tag ('traderSoloFull.mp4'), :style => "width=100%; height=auto; autoplay=true; loop=true; muted=true; " %>
     <!-- <video width="100%" height="auto" autoplay="" loop="" muted="">  <source src="assets/img/traderSoloFull.mp4" type="video/mp4"> </video> -->
   </div>
 </div>
@@ -279,9 +280,9 @@
       <div class="col-sm-2 col-sm-offset-1 m-b-md">
         <ul class="list-unstyled list-spaced">
           <li class="m-b"><h6 class="text-uppercase">ZeroSum</h6></li>
-          <li class="text-muted"><a href="about.html">About</a></li>
-          <li class="text-muted"><a href="faq.html">How it Works</a></li>
-          <li class="text-muted"><a href="terms.html">Team</a></li>
+          <li class="text-muted"><a href="<%= about_path %>">About</a></li>
+          <li class="text-muted"><a href="<%= faq_path %>">How it Works</a></li>
+          <li class="text-muted"><a href="<%= about_path %>">Team</a></li>
 
         </ul>
       </div>
@@ -294,9 +295,9 @@
       <div class="col-sm-2 m-b-md">
         <ul class="list-unstyled list-spaced">
           <li class="m-b"><h6 class="text-uppercase">Legal</h6></li>
-          <li class="text-muted"><a href="terms.html">Terms of Use</a></li>
-          <li class="text-muted"><a href="privacy.html">Privacy Policy</a></li>
-          <li class="text-muted"><a href="about.html">Contact Us</a></li>
+          <li class="text-muted"><a href="<%= terms_path %>">Terms of Use</a></li>
+          <li class="text-muted"><a href="<%= privacy_path %>">Privacy Policy</a></li>
+          <li class="text-muted"><a href="<%= about_path %>">Contact Us</a></li>
         </ul>
       </div>
       
@@ -308,7 +309,7 @@
 
         <a href="https://www.facebook.com/ZeroSumMarkets/" ><i class="fa fa-facebook-official fa-3x m-r-md"></i></a>
         <div class="row p-t-md">
-        <div class="col-md-6"
+        <div class="col-md-6">
      <a href="https://stripe.com"> <%= image_tag('powered-by-stripe.png') %> </a>
      </div>
      </div>
