@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="author" content="">
+      <title>
+         ZeroSum &middot; 
+      </title>
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="assets/css/hover.css" rel="stylesheet" media="all">
+      <style>
+         /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+         /* this chunk of css is not part of the toolkit :) */
+         /* …curses ios, etc… */
+         @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+         body {
+         width: 1px;
+         min-width: 100%;
+         *width: 100%;
+         }
+         #stage {
+         height: 1px;
+         overflow: auto;
+         min-height: 100vh;
+         -webkit-overflow-scrolling: touch;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+         <ul class="nav nav-bordered nav-stacked">
+            <li class="nav-header">ZeroSum</li>
+            <li class="active">
+               <a href="index.html">ZeroSum</a>
+            </li>
+            <li>
+               <a href="about.html">About</a>
+            </li>
+            <li>
+               <a href="faq.html">Rules and FAQ</a>
+            </li>
+           
+            
+         </ul>
+      </div>
+      <div class="stage" id="stage">
+         <div class="block block-inverse block-fill-height app-header"
+            style="background-image: url(assets/img/numbers-sm.jpg);">
+            <nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-sm p-r-md">
+               
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed p-x-0"
+                        data-target="#stage" data-toggle="stage" data-distance="-250">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <div class="container" style="padding-left: 15px;">
+                     <a class="navbar-brand" href="">
+                        <!-- <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">
+                           </strong> -->
+                        <img  src="assets/img/OnlyIconInverted2.png" height="55" width="55"> 
+                     </a>
+                     </div>
+                  </div>
+                  <div class="navbar-collapse collapse text-uppercase">
+                     <ul class="nav navbar-nav navbar-right">
+                        <li >
+                           <a class="hvr-grow" style="color: #E0C023;" href="index.html">ZeroSum</a>
+                        </li>
+                         <li >
+                           <a class="hvr-grow" style="color: #E0C023;" href="contests.html">Contests</a>
+                        </li>
+                        <li >
+                           <a class="hvr-grow" style="color: #E0C023;" href="about.html">About</a>
+                        </li>
+                        <li >
+                           <a class="hvr-grow" style="color: #E0C023;" href="faq.html">Rules and FAQ</a>
+                        </li>
+                         <li class="dropdown">
+          <a href="#" class="dropdown-toggle hvr-grow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #E0C023;">Legal <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a style="color: #E0C023;" href="privacy.html">Privacy</a></li>
+            <li><a style="color: #E0C023;" href="terms.html">Terms of Use</a></li>
+            
+          </ul>
+        </li>
+                        
+                     </ul>
+
+                 
+    </div><!--/.nav-collapse -->
+</nav>
+
+
+  
+
+   </div>
+
+
+      <div class="block block-secondary app-iphone-block">
+         <div class="container">
+            <div class="row app-align-center">
+               <div class="col-sm-12 col-sm-offset-1">
+                  <h2 class="text-muted text-uppercase text-center">Rules and FAQ</h2>
+                  <h4 class="m-t-0" style="color: #E0C023;">All you want to know</h4>
+                  <p class="lead m-b-md">Last updated: 3/17/16</p>
+                  <div class="row hidden-sm">
+                     <div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;">Rules</h3>
+                        <p></p>
+                        <p><ul><li> All contests begin at the designated start time of the contest on the designated start date of the contest, as displayed during contest registration. All games end at the designated end time on the designated end date of the contest as displayed during contest registration.<strong> PLEASE ENSURE YOU ARE AWARE OF THESE TERMS DURING REGISTRATION. </strong></li>
+<li>  During the competition you have the ability to make decisions that demonstrate your ability as a trader. Simply put, you can buy or sell any amount of any instrument in a competition up to your available notional at any time. All actions taken are simulated. </li>
+<li>  At the conclusion of the contest, your PnL, as determined by the simulated trades you took during the competition, will be graded against other participants PnL generated in the same fashion, during the specific competition all participants registered in.</li>
+<li>Cash prizes are awarded based on how your PnL ranks at the end of the competition relative to the other competitors in your competition. Not the performance of any instrument or your fictional PnL.</li></ul>
+
+                        </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h1 class="m-y-0" style="color: #E0C023;">FAQ</h1>
+                        <p></p>
+                        <p>
+                        <ul>
+                           <li> <a href="#101">ZeroSum 101</a> </li>
+                           <li> <a href="#rules">Contests and Rules</a></li>
+                           <li><a href="#deposit">Deposits, Withdrawals and Bonuses</a></li>
+                           <li> <a href="#account">Account Management</a></li>
+                           <li> <a href="#refer"> Refer a Friend Program </a></li>
+                           <li> <a href="#other"> Other Questions </a></li>
+                        </ul>  </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="101">ZeroSum 101</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> What is ZeroSum?</h5>
+                        <p>ZeroSum is a skill-based contest for traders who are fed up with the current environment of shady brokers and unreasonable fees to trade. Competitors are given the ability to trade a fictional portfolio to showcase their skills as a trader. Skills such as timing, trade sizing, and market views are emphasized as each trader competes to achieve the best performance compared to his or her peers. Competitors are ranked based on their performance to each other determined by the amount of fictional PnL you generated during the Contest. Founded in 2015 a team of former Wall Street traders who were fed up with the current state of trading for everyone not named a Hedge Fund or High Frequency Shop, ZeroSum is headquartered in Chicago, IL. </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Are Contests Free or Paid?</h5>
+                        <p>ZeroSum offers both paid and free contests. Contests include multiple arrangements of instruments and types that Competitors can find the Contest that best showcases their edge. These may include:
+<ul><li> Instrument Groups, G10 FX, EM FX, Single Instruments </li>
+<li>  Duration of Competition </li>
+<li>  Number of Participating Competitors </li>
+<li> Event Risk over the Competition </ul>
+ </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Is competing on ZeroSum legal?</h5>
+                        <p> For the vast majority of residents within the US the answer is YES. According to current Law some residents of the jurisdictions listed below are ineligible at this time. 
+Legal residents physically located in any of the 50 states and Washington DC, excluding Arizona, Iowa, Louisiana, Montana, Nevada, and Washington are eligible to open an account and participate in contests offered by ZeroSum. Legal residents of Arizona, Iowa, Louisiana, Montana, Nevada, and Washington (the "Excluded States") are ineligible for prizes offered by ZeroSum. Residents of the Excluded States are eligible to open and maintain a ZeroSum account for use only in contests that do not offer prizes.
+
+
+
+
+                         </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="rules">Contests and Rules</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> What type of Contests do you offer?</h5><p></p>
+                        <p><strong> Tiered </strong></p>
+                        <p>Prize values in Tiered contests are based on your final ranking, the top ranking individuals will get the lion’s share of the contest winnings (pays to be good!). The contest tiered payouts will be adjusted according to feedback from our users in order to best serve what you want! </p>
+
+                        <p><strong> 50/50s </strong></p>
+                        <p>All Competitors who finish in the top half of the contest as defined by (Total Entrants / 2) will receive an equal payout. For these competitions all top ranking competitors are treated equally for the prize pool and final ranking inside the top half is irrelevant to the awarded prize. </p>
+
+                        <p><strong> Time Based </strong></p>
+                        <p>All competitions have a given duration for how long they run. Every competition lets the competitors know during registration when the competition will start and how long it will run for. The final ranking is taken at the conclusion of the contest and any open positions will be marked to the last available market price to determine final ranking.
+   These competitions can range anywhere from 5 minutes, (focus on those trades!) to days or even weeks at a time. Again we aim to provide the best possible service for our users and welcome any feedback in regards to which competitions you want to see most!
+ </p>
+
+                        <p><strong> Instrument Based </strong></p>
+                        <p>Since we understand that you might have an edge in a specific sector or instrument we offer varying types of contests. Competitions have a list of tradeable instruments that are noted during contest registration. The list can range from a single instrument such as EUR/USD where all participants can only trade EUR/USD through the life of the competition. To instrument lists that have a wide range of pairs or securities.  </p>
+
+                         <p><strong> Paid </strong></p>
+                        <p>Paid contests require an entry fee and a prize pool offered to competitors at the end of the contest depending the structure of the contest.  </p>
+
+                         <p><strong> Free </strong></p>
+                        <p>Free contests do not have an entry fee and do not offer a prize pool. But do allow you bragging rights.  </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How is my rank determined?</h5>
+                        <p>In the real world if you are long and the instrument goes up you make a profit, all else being equal. We are interested in taking the ability of you as a trader and quantifying so you can be compared against your peers. How do we do this?
+Simple, we give each participant in a contest the same tools and functionality that lets them trade a fictional portfolio on selected instruments and compare how they did against one another. At the end of a competition we rank your fictional portfolio’s profits against all other competitors in your contest. What this does is give us a RELATIVE performance rank of each participant and that rank demonstrates how you preformed against your peers under the same conditions. 
+We provide a live leaderboard for the contest, but these ranks are not finalized until the conclusion of the contest where we determine PnL for all open positions by marking them to the most recent price quote we have. 
+
+                        </p>
+                        
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How are ties handled?</h5>
+                        <p>If there is a tie in which PnL is identical between two or more competitors at the end of the competition, then those involved in the tie will evenly split the prize pool. As an example, if 3rd and 4th tied, and the prizes were $10 and $5 respectively, then each competitor would receive $7.50 as the prize payout. We have structured the competitions so that the end results are highly unlikely to be a tie, but in the event it happens the above process will take place. </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">What happens if not enough people sign up to fill a competition?</h5>
+                        <p> The contest will not take place and all entry fees will be returned to the users. </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Are Prices and the Leaderboard Real Time?</h5>
+                        <p>Yes! We have gone the extra mile to bring you real time data. Something that seems easy, but trust us, is not. All prices shown are real time and not delayed (unless otherwise noted). The Leaderboard is delayed a few seconds so that we can run calculations on our back end (fixing this for you shortly!).  </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How do you handle Competitions when the market is closed?</h5>
+                        <p>If a competition is ongoing, the contest will be locked until the market re-opens, all positions will be unchanged for the user until price data is restored on Market Open.  </p>
+                     </div>
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How is my Rank finalized?</h5>
+                        <p>No contest PnL’s are finalized until we have the appropriate data to calculate end PnL for each user. After this calculation takes place (as defined above) we will then finalize the position of each competitor for rank. </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">I won! How am I paid out?</h5>
+                        <p>All games pay out at the finalization of each Contest. If a dispute or abnormal market occurrence occurs, we may delay pay outs for all users involved in the specific Contest in order to resolve the situation. Please see our withdrawl policy for further information. </p>
+                     </div>
+
+<div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="deposit">Deposits, Withdrawls and Bonuses!</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> How do I sumbit a withdrawl request?</h5>
+                        <p>Go to your account page, click on "Withdrawal", and follow the instructions to submit your request.</p>
+                     </div>
+
+
+ <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">What can I use to deposit money into my account?</h5>
+                        <p>ZeroSum accepts all major credit/debit cards including Visa, MasterCard, Discover and American Express. ZeroSum also offers PayPal deposits if a user currently has a PayPal account. If a user wishes to deposit via Bitcoin, there will be additional identity verification checks for deposits and withdrawals.
+
+                        </p>
+                     </div>
+
+
+
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">What is your withdrawl policy?</h5>
+                        <p>Any withdrawal requests, after approved by ZeroSum, will be credited to the method of payment requested by the customer up to the original amount deposited. Any additional amount will be sent via check. ZeroSum will only release withdrawals to a different payment method other than that which was used to make deposit(s) after the aggregate amount of such deposit(s) has already been released back to the credit card(s) or payment method(s) used for the deposit(s).
+If you have cancelled your credit or debit card that you have used in the past to deposit on ZeroSum, please contact support@zerosummarkets.com prior to requesting your withdrawal.
+
+                        </p>
+                     </div>
+
+
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How long do withdrawls take?</h5>
+                        <p>Our Accounting Department processes withdrawals Monday - Friday from 9:00 AM to 5:00 PM EST. Any withdrawal requests that come in after 5:00 PM EST on Friday will be processed in the order that they were received starting the following Monday. Once our Accounting Department processes your withdrawal request (you'll receive a confirmation email), it typically takes anywhere from 2-8 business days for your funds to appear in your account. Checks can take 2-3 weeks for delivery.
+
+                        </p>
+                     </div>
+
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How do you prevent unauthorized withdrawls?</h5>
+                        <p>All ZeroSum competitors are subject to a verification process provided whenever a competitor attempts to withdraw funds. In the event of a dispute as to the identity of a customer, ZeroSum can and does require its competitors to produce a copy of their driver’s license, credit cards, utility bills or passport for identity verification. If a customer cannot validate their identity and account, ZeroSum will not release the funds from the account.act support@zerosummarkets.com prior to requesting your withdrawal.
+
+                        </p>
+                     </div>
+
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Can I use a form of payment belonging to someone else to deposit?</h5>
+                        <p>Unfortunately, no, only the registered user of the account can deposit funds into the account registered to them. 
+
+                        </p>
+                     </div>
+
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How are refunds or withdrawls handled for closed accounts?</h5>
+                        <p>If any consumer chooses to close his or her ZeroSum account, we will refund all funds in the account before the close of business on the next full business day. If an account is closed prior to the conclusion of a customer’s live contest(s) any and all winnings generated from ZeroSum contest will be distributed to the consumer within five business days after the contest ends. If ZeroSum has taken action to close the account on Policy Violations all funds current or from future ending contests are subject to forfeit by the User.
+
+                        </p>
+                     </div>
+
+                      
+
+                       <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Do I have to pay taxes on my ZeroSum Winnings?</h5>
+                        <p>You know what they say life, death and Taxes... Yes you have to pay taxes. 
+                        Declaration and payment of all income taxes associated contest winnings are the sole responsibility of the contest winner. ZeroSum may collect W-9s from customers in order to comply with state and federal tax laws. ZeroSum issues form 1099-MISC to customers with reportable income of at least $600 in any calendar year. Which may require the disclosure of additional information such as a Social Security Number before customers can withdraw winnings.
+
+                        </p>
+                     </div>
+
+<div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="account">Account Management</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> I forgot my account or I think someone else has my login information?</h5>
+                        <p>If you believe your account has been lost or compromised, please contact support@zerosummarkets.com for assistance. Please provide all information related to your request and a member of our Customer Service team will address your support ticket within 24 hours.</p>
+                     </div>
+
+
+                       <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Does ZeroSum commingle funds between player accounts and operating expenses?</h5>
+                        <p>ZeroSum keeps all player funds in a segregated player account which is never commingled with our operating business expenses, or any other accounts.
+
+                        </p>
+                     </div>
+
+                       <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How is my information protected?</h5>
+                        <p>We encrypt all our private customer information, available to our staff only when needed for business use.
+
+                        </p>
+                     </div>
+
+                       <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Can I register more than one account?</h5>
+                        <p>ZeroSum prohibits competitors from opening up more than one account, in order to ensure fair play and uphold the integrity of our contests. If for some reason you forget your password or user name please contact us and a ZeroSum rep will contact you shortly.
+Please note: if the same individual sets up multiple accounts, ZeroSum will deactivate all accounts, and any potential winnings may not be honored from any accounts. Any accounts that are set up illegitimately will be deactivated and winnings will not be honored. Deposits are subject to further consideration of return depending on legal jurisdiction. We do this to ensure that all users have a fair environment to compete.
+
+
+                        </p>
+                     </div>
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Can I permanently close my account at any time?</h5>
+                        <p>Yes, should you decide to close your account at any time for any reason, please contact our Customer Service team. We’ll be able to assist you in closing your account over email or through our dedicated Customer Service Contact Center.
+
+                        </p>
+                     </div>
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">I don't like my username, can I change it?</h5>
+                        <p>Normally, we do not change usernames, though we treat each request separately.  Please contact us at support@zerosummarkets.com. If we feel your username is in violation of our Terms of Use we may change the username at our own discretion with notifying your provided email.
+
+                        </p>
+                     </div>
+
+                      <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How do I reset my password?</h5>
+                        <p>You can reset your password by choosing the “I forgot my password” link on the Log In screen of the Website.
+                        </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">How do I view my transaction history?</h5>
+                        <p>Your transaction history can be found within the account settings page of the Website.
+                        </p>
+                     </div>
+<div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="refer">Refer a Friend</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> How does it work?</h5>
+                        <p>For each friend who uses your referral code to during registration and makes a cash deposit into ZeroSum, you will receive $5 in credit towards entry into any contest. Your friend will also receive $5 in credit towards entry into any contest. Credit is released into your account and made available for contest play and withdrawal based on the value of your entry fees at a prorated rate.</p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Is there a limit to how many friends I can refer?</h5>
+                        <p>There is no limit! Our Terms of Use still apply and multiple accounts by an individual are prohibited!
+                        </p>
+                     </div>
+
+                     <div class="col-sm-12 m-b-md">
+                        <h3 class="m-y-0" style="color: #E0C023;" name="other">Other Questions</h3>
+
+                        <p></p>
+                        <p></p>
+                        <h5 class="m-y-0" style="color: #E0C023;"> How do I know I'm not playing against ZeroSum employees who can see all the 'data'?</h5>
+                        <p>First all users have access to the same data, we don’t know anything special!
+More importantly, Employees and Directors (and their family members) of ZeroSum Gaming, LLC. are not allowed to participate in public paid contests, under any circumstances. So feel assured that you are competing against other real users!
+</p>
+                     </div>
+
+  <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Is ZeroSum regulated by a financial regulatory authority, or by the state or federal government?</h5>
+                        <p>ZeroSum is a contest of skill, much like eSports or a chess tournament only here we test your trading aptitude. It is not a security or security based swap, it is a skill based contest. ZeroSum is not currently regulated by the federal government, any state government, or financial regulatory authority. Keep in mind, you do not own or actually trade any legal security instrument nor are you tied to the performance of that instrument to determine your payout. 
+ZeroSum has been following the legal landscape closely and has consulted with lawyers and expert opinions on this matter. We have also identified precedence with competitors in our space. 
+
+                        </p>
+                     </div>
+
+<div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">Is ZeroSum legalized gambling?</h5>
+                        <p>ZeroSum competitions are skill-based contests and is not considered gambling in the areas where we allow competitions.
+                        </p>
+                     </div>
+
+
+                     <div class="col-sm-12 m-b-md">
+                        <h5 class="m-y-0" style="color: #E0C023;">ZeroSum</h5>
+                        <p>ZeroSum is a skill-based contest for currency and stock market gurus who want to compete for cash prizes and to demonstrate their abilities as traders. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="block block-bordered text-center"></div>
+      <div class="block block-inverse app-footer">
+ <div class="container">
+    <div class="row">
+      <div class="col-sm-5 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">About</h6></li>
+          <li class="text-muted">
+          ZeroSum was born out of the belief that there are great traders out there. We just need to find them. 
+
+           If you’d like to learn more, or are interested in a job, contact us anytime at <a href="mailto: jobs@zerosummarkets.com">jobs@zerosummarkets.com</a>.
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-2 col-sm-offset-1 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">ZeroSum</h6></li>
+          <li class="text-muted"><a href="about.html">About</a></li>
+          <li class="text-muted"><a href="faq.html">How it Works</a></li>
+          <li class="text-muted"><a href="terms.html">Team</a></li>
+
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">Beta</h6></li>
+          <li class="text-muted">Coming Soon</li>
+        </ul>
+      </div>
+      <div class="col-sm-2 m-b-md">
+        <ul class="list-unstyled list-spaced">
+          <li class="m-b"><h6 class="text-uppercase">Legal</h6></li>
+          <li class="text-muted"><a href="terms.html">Terms of Use</a></li>
+          <li class="text-muted"><a href="privacy.html">Privacy Policy</a></li>
+          <li class="text-muted"><a href="about.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+     <div class="row"> 
+      <div class="col-md-4">
+<a href="https://twitter.com/ZeroSumMkts" ><i class="fa fa-twitter fa-3x m-r-md"></i> </a>
+
+      <a href="https://www.facebook.com/ZeroSumMarkets/" ><i class="fa fa-facebook-official fa-3x m-r-md"></i></a>
+<div class="row p-t-md">
+        <div class="col-md-6"
+     <a href="https://stripe.com"> <img src="assets/img/powered-by-stripe.png" > </a>
+     </div>
+     </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75412906-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
